@@ -1,0 +1,14 @@
+.photo-grid__cards-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .photo-grid__cards-list {
+        gap: 20px 17px;
+    }
+}
